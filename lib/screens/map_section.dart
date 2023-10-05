@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:http/http.dart' as http;
-import 'api_keys.dart'; // Import the API keys file
+import '.api_keys.dart'; // Import the API keys file
 class MapSection extends StatefulWidget {
   @override
   _MapSectionState createState() => _MapSectionState();
