@@ -28,7 +28,8 @@ doc/api/
 firestore.indexes.json
 firestore.rules
 .firebase_options.dart
-.android
-build
-lib/screens/
+android
+
+
 lib/services/services_api_keys.dart
+web/config.js
