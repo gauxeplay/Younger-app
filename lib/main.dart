@@ -3,7 +3,7 @@ import 'package:younger_delivery/screens/dashboard_screen.dart';
 import 'package:younger_delivery/screens/login_screen.dart';
 import 'package:younger_delivery/screens/registration_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
+import '.firebase_options.dart';
 import 'package:appwrite/appwrite.dart'; // Add this line for Appwrite
 
 void main() async {

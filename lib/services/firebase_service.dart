@@ -1,5 +1,5 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:younger_delivery/firebase_options.dart'; // Replace with the correct path if necessary
+import 'package:younger_delivery/.firebase_options.dart'; // Replace with the correct path if necessary
 
 class FirebaseService {
   static Future<void> initializeFirebase() async {

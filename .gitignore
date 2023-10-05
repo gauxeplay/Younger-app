@@ -27,4 +27,8 @@ doc/api/
 .flutter-plugins-dependencies
 firestore.indexes.json
 firestore.rules
-
+.firebase_options.dart
+.android
+build
+lib/screens/
+lib/services/services_api_keys.dart

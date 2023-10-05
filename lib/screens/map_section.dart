@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:http/http.dart' as http;
-
+import 'api_keys.dart'; // Import the API keys file
 class MapSection extends StatefulWidget {
   @override
   _MapSectionState createState() => _MapSectionState();
@@ -14,7 +14,7 @@ class _MapSectionState extends State<MapSection> {
   TextEditingController searchController = TextEditingController();
 
   // Make sure to replace 'YOUR_API_KEY' with your actual Places API key.
-  final String apiKey = 'AIzaSyBPD7wSp-tUrOB7lM-8L-tPoCiCnAT6Lsk';
+  final String apiKey = ApiKeys.googleMapsApiKey;
 
   void _onMapCreated(GoogleMapController controller) {
     mapController = controller;
